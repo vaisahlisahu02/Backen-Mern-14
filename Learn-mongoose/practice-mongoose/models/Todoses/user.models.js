@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 
 
  new userSchema = mongoose.Schema({
-username:{
+    username:{
     type:Strung,
     require:true,
     unique:true,
